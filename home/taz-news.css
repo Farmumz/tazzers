@@ -1,0 +1,170 @@
+/* Style the 'ul' element */
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(214, 214, 226);
+  border-radius: 2%;
+  position: relative; /* Set position to relative for proper positioning */
+  border-radius: 10px;
+  width: 28%;
+
+}
+
+/* Set the float property for the 'li' elements */
+li {
+  float: left;
+}
+
+/* Style the anchor elements inside the 'li' elements */
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+/* Add a hover effect for the anchor elements */
+li a:hover {
+  color: white;
+  border-radius: 10%;
+  transition: .5s;
+}
+
+.account {
+  list-style-type: none;
+  margin: auto;
+  padding: 20px;
+  overflow: hidden;
+  background-color: rgb(214, 214, 226);
+  position: absolute; /* Set position to relative for proper positioning */
+  border-radius: 10px;
+  width: 5%;
+  right: 1%;
+  top: 9px;
+  height: 0%;
+  transition: 300ms;
+}
+
+.top-nav {
+  background-color: red;
+  width: 63px;
+  height: 0%;
+  position: absolute;
+  top: 39px;
+  left: 12px;
+  margin: 0;
+  padding: 3px;
+  transition: 300ms;
+}
+
+.news-but:hover ~ .top-nav {
+  top: 39px;
+  left: 94px;
+  transition: 300ms;
+}
+
+.contact-but:hover ~ .top-nav {
+  top: 39px;
+  left: 172px;
+  transition: 300ms;
+}
+
+.about-but:hover ~ .top-nav {
+  top: 39px;
+  left: 257px;
+  transition: 300ms;
+}
+.account:hover {
+  list-style-type: none;
+  margin: auto;
+  padding: 20px;
+  overflow: hidden;
+  background-color: rgb(214, 214, 226);
+  position: absolute; /* Set position to relative for proper positioning */
+  border-radius: 10px;
+  width: 5%;
+  right: 1%;
+  top: 9px;
+  height: 20%;
+  transition: 300ms;
+
+}
+
+.title-div {
+  list-style-type: none;
+  margin: auto;
+  padding: 22px;
+  overflow: hidden;
+  background-color: rgb(214, 214, 226);
+  position: absolute; /* Set position to relative for proper positioning */
+  border-radius: 10px;
+  width: 8%;
+  right: 87%;
+  top: 9px;
+}
+
+.name {
+  right: 12%;
+  top: 1%;
+  position:absolute;
+}
+
+
+/* Style the elements with class names '.ibad', '.war', '.premier', and '.ruangguru' */
+.ibad, .war, .premier, .ruangguru {
+  border-radius: 5px;
+  background-color: rgb(214, 214, 226);
+  padding: 36px;
+  width: 31%;
+  margin: auto;
+  position: absolute;
+  top: 20%;
+}
+
+/* Set the position for '.ibad' and '.war' elements */
+.ibad {
+  right: 58%;
+}
+
+.war {
+  right: 10%;
+}
+
+/* Set the position for '.premier' and '.ruangguru' elements */
+.premier {
+  right: 58%;
+  top: 75%;
+}
+
+.ruangguru {
+  right: 10%;
+  top: 93%;
+}
+
+.title {
+  font-family: Magneto;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  padding: 10px 10px;
+  font-size: xx-large;
+}
+
+.signout {
+  right: -4%;
+  position: absolute;
+  padding: 0px 0px;
+  top: 11%;
+  font-size: small;
+  text-align: right;
+} 
+
+.name {
+  right: 12%;
+  top: 6%;
+  position:absolute;
+}

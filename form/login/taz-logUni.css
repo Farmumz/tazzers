@@ -1,0 +1,182 @@
+input[type=text]{
+    width: 50%;
+    padding: 9px 17px;
+    margin: auto;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+    text-align: left;
+    background-color: transparent;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    outline: none;
+    transition: .5s;
+}
+
+input[type=text]:hover {
+    border-bottom: 5px solid blue;
+    outline: none;
+    transition: .5s;
+
+}
+
+input[type=text]:focus {
+    border-bottom: 5px solid lightblue;
+    outline: none;
+    transition: .5s;
+
+}
+
+
+
+.user-label{
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    padding: 10px 0;
+    font-size: 15px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.pass-label {
+    position: absolute;
+    top: 55%;
+    left: 34%;
+    padding: 10px 0;
+    font-size: 15px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input[type=text]:focus ~ .user-label {
+    top: 34%;
+    left: 34%;
+    color: blue;
+    font-size: 13px;
+  }
+
+  input[type=password]:focus ~ .pass-label {
+      top: 50%;
+      left: 34%;
+      color: blue;
+      font-size: 13px;
+    }
+
+  
+input[type=password], select {
+    width: 50%;
+    padding: 9px 20px;
+    margin: auto;
+    text-align: left;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+    background-color: transparent;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    outline: none;
+    transition: .5s;
+}
+
+input[type=password]:hover {
+    border-bottom: 5px solid blue;
+    outline: none;
+    transition: .5s;
+
+}
+
+input[type=password]:focus {
+    border-bottom: 5px solid lightblue;
+    outline: none;
+    transition: .5s;
+
+}
+.daftar {
+    border-radius: 5px;
+    background-color: rgb(214, 214, 226);
+    padding: 24px;
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+/* Gaya untuk layar dengan lebar lebih besar dari 600px */
+@media only screen and (min-width: 600px) {
+    .daftar {
+        margin-right: 20px;
+    }
+}
+ 
+/* Gaya untuk layar dengan lebar kurang dari atau sama dengan 600px */
+@media only screen and (max-width: 600px) {
+    .daftar {
+        /* margin-right: 78px; */
+        width: 88vw;
+        /* height: 95vh; */
+        background: white;
+    }
+}
+
+
+input[type=submit] {
+    width: 34%;
+    background-color: #01e6fa;
+    color: white;
+    padding: 9px 12px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+input[type=email] {
+    width: 56%;
+    padding: 9px 20px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+input[type=date]{
+    width: 42%;
+    padding: 9px 20px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+.title {
+    font-family: Magneto;
+    position: static;
+}
+
+/* Error */
+.error {
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(240, 30, 30, 0.789);
+    padding: 9px;
+    width: 100%;
+    max-width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    color: white;
+    transition: 300ms;
+}

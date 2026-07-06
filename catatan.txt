@@ -1,0 +1,46 @@
+- Tag tag <html>
+
+---Kutipan HTML 
+----<abbr></abbr>: Mendefinisikan singkatan atau akronim
+----<address></address>: Menentukan informasi kontak untuk penulis/pemilik dokumen
+----<bdo></bdo>: Menentukan arah teks
+----<blockquote></blockquote>: Menentukan bagian yang dikutip dari sumber lain
+----<cite></cite>: Menentukan judul sebuah karya
+----<q></q>: Menentukan kutipan inline pendek
+
+-- tag <a> dalam CSS:
+---a:hover -> link pada saat kursor berjalan diatasnya
+---a:visited -> Link yang sudah dikunjungi
+---a:active -> link pada saat diklik
+
+---Atribut Target: Atribut target menentukan tempat untuk membuka halaman yang ditautkan. Atribut target dapat memiliki salah satu dari 
+nilai berikut:
+
+----- _blank    : Membuka dokumen/halaman yang ditautkan di jendela atau tab baru
+----- _self     : Membuka dokumen/halaman yang ditautkan di jendela/tab yang sama dengan yang diklik (ini aturan bawaan)
+----- _parent   : Membuka dokumen/halaman yang ditautkan di bingkai utama
+-----_top       : Membuka dokumen/halaman yang ditautkan selebar jendela utama
+
+
+--Apakah harus menggunakan <br>?
+Tidak juga, jika kamu ingin menggunakan spasi/paragraf pada posisi yang sama, gunakan <pre>
+
+--Bagian-bagian HTML5:
+<header> - Bagian atas
+<nav> - bagian menu navigasi
+<section> - bagian kontainer utama halaman web
+<article> - bagian independen dari halaman web
+<aside> - bagian sidebar
+<footer> - bagian kaki web
+
+--HTML format:
+<b> - Teks tebal 
+<strong> - Teks penting
+<i> - Teks miring 
+<em> - Teks yang ditekankan 
+<mark> - Teks yang ditandai 
+<small> - Teks lebih kecil 
+<del> - Teks yang dihapus 
+<ins> - Teks yang disisipkan 
+<sub> - Teks subskrip 
+<sup> - Teks superskrip

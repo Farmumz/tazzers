@@ -1,0 +1,418 @@
+input[type=text]{
+    width: 42%;
+    padding: 9px 17px;
+    margin: auto;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    outline: none;
+    background-color: transparent;
+    transition: .5s;
+
+}
+
+.user {
+    width: 42%;
+    padding: 9px 17px;
+    margin: auto;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+    border-bottom: 5px solid white;
+    outline: none;
+    background-color: transparent;
+    transition: .5s;
+
+
+}
+input[type=text]:hover {
+    border-bottom: 5px solid blue;
+    outline: none;
+    transition: .5s;
+
+}
+
+input[type=text]:focus {
+    border-bottom: 5px solid lightblue;
+    outline: none;
+    transition: .5s;
+
+}
+
+input[type=password], select {
+    width: 50%;
+    padding: 9px 20px;
+    margin: auto;
+    text-align: left;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    outline: none;
+    background-color: transparent;
+}
+
+/* Gaya untuk layar dengan lebar lebih besar dari 600px */
+@media only screen and (min-width: 600px) {
+    input[type=password] {
+        margin-right: 20px;
+    }
+}
+ 
+/* Gaya untuk layar dengan lebar kurang dari atau sama dengan 600px */
+@media only screen and (max-width: 600px) {
+    input[type=password] {
+        /* margin-right: 78px; */
+        width: 60vw;
+        /* height: 95vh; */
+    }
+}
+
+input[type=password]:hover {
+    border-bottom: 5px solid blue;
+    outline: none;
+    transition: .5s;
+
+}
+
+input[type=password]:focus {
+    border-bottom: 5px solid lightblue;
+    outline: none;
+    transition: .5s;
+
+}
+
+.daftar {
+    border-radius: 5px;
+    background-color: rgb(214, 214, 226);
+    padding: 25px;
+    width: 34%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    }
+
+/* Gaya untuk layar dengan lebar lebih besar dari 600px */
+@media only screen and (min-width: 600px) {
+    .daftar {
+        margin-right: 20px;
+    }
+}
+ 
+/* Gaya untuk layar dengan lebar kurang dari atau sama dengan 600px */
+@media only screen and (max-width: 600px) {
+    .daftar {
+        /* margin-right: 78px; */
+        width: 88vw;
+        /* height: 95vh; */
+        background: white;
+    }
+}
+
+
+input[type=submit] {
+    width: 90%;
+    background-color: #01e6fa;
+    color: white;
+    padding: 9px 12px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+input[type=email] {
+    width: 71%;
+    padding: 9px 20px;
+    margin: auto;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    outline: none;
+    background-color: transparent;
+}
+
+input[type=email]:hover {
+    border-bottom: 5px solid blue;
+    outline: none;
+    transition: .5s;
+
+}
+
+input[type=email]:focus {
+    border-bottom: 5px solid lightblue;
+    outline: none;
+    transition: .5s;
+
+}
+
+input[type=date]{
+    width: 50%;
+    padding: 9px 20px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    outline: none;
+    background-color: transparent;
+
+}
+
+/* Gaya untuk layar dengan lebar lebih besar dari 600px */
+@media only screen and (min-width: 600px) {
+    input[type=date] {
+        margin-right: 20px;
+    }
+}
+ 
+/* Gaya untuk layar dengan lebar kurang dari atau sama dengan 600px */
+@media only screen and (max-width: 600px) {
+    input[type=date] {
+        /* margin-right: 78px; */
+        width: 60vw;
+        /* height: 95vh; */
+    }
+}
+
+input[type=date]:hover {
+    border-bottom: 5px solid blue;
+    outline: none;
+    transition: .5s;
+
+}
+
+input[type=date]:focus {
+    border-bottom: 5px solid lightblue;
+    outline: none;
+    transition: .5s;
+
+}
+
+.title {
+    font-family: Magneto;
+    position: static;
+}
+
+input[type=file]{
+    width: 52%;
+    padding: 2px 7px;
+    margin: auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+/* Gaya untuk layar dengan lebar lebih besar dari 600px */
+@media only screen and (min-width: 600px) {
+    input[type=file] {
+        margin-right: 20px;
+    }
+}
+ 
+/* Gaya untuk layar dengan lebar kurang dari atau sama dengan 600px */
+@media only screen and (max-width: 600px) {
+    input[type=file] {
+        /* margin-right: 78px; */
+        width: 60vw;
+        /* height: 95vh; */
+    }
+}
+
+
+
+
+/* For Labels */
+  .name-label {
+    position: absolute;
+    top: 27%;
+    right: 62%;
+    padding: 10px 0;
+    font-size: 15px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+/* Gaya untuk layar dengan lebar lebih besar dari 600px */
+@media only screen and (min-width: 600px) {
+    .name-label {
+        margin-right: 20px;
+    }
+}
+ 
+/* Gaya untuk layar dengan lebar kurang dari atau sama dengan 600px */
+@media only screen and (max-width: 600px) {
+    .name-label {
+        top: 27%;
+        right: 54%;
+    }
+}
+
+.user-label {
+    position: absolute;
+    top: 24%;
+    right: 33%;
+    font-size: 15px;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.email-label {
+    position: absolute;
+    top: 38%;
+    right: 69%;
+    font-size: 15px;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+/* Gaya untuk layar dengan lebar lebih besar dari 600px */
+@media only screen and (min-width: 600px) {
+    .email-label {
+        margin-right: 20px;
+    }
+}
+ 
+/* Gaya untuk layar dengan lebar kurang dari atau sama dengan 600px */
+@media only screen and (max-width: 600px) {
+    .email-label {
+        top: 38%;
+        right: 67%;
+    }
+}
+
+.pass-label {
+    position: absolute;
+    top: 328px;
+    right: 57%;
+    font-size: 15px;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.pp-label {
+    position: absolute;
+    top: 47%;
+    right: 62%;
+    font-size: 15px;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.ttd-label {
+    position: absolute;
+    top: 65%;
+    right: 52%;
+    font-size: 15px;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+/* Label Animation */
+
+#fullname:focus ~ .name-label {
+    top: 24%;
+    right: 64%;
+    color: blue;
+    font-size: 13px;
+}
+
+#user:focus ~ .user-label {
+    top: 24%;
+    right: 33%;
+    color: blue;
+    font-size: 13px;
+  }
+
+#email:focus ~.email-label {
+    top: 35%;
+    right: 70%;
+    color: blue;
+    font-size: 13px;
+}
+
+input[type=password]:focus ~ .pass-label {
+      top: 56%;
+      right: 59%;
+      color: blue;
+      font-size: 13px;
+      transition: .5s;
+    }
+
+#ttd:focus ~ .ttd-label {
+    color: blue;
+    transition: .5s;
+
+}
+
+
+/* Error */
+.error {
+    position: fixed;
+    border-radius: 10px;
+    background-color: rgba(240, 30, 30, 0.789);
+    padding: 9px;
+    width: 19%;
+    margin: auto;
+    top: 100%;
+    right: 5%;
+    color: white;
+    transition: 300ms;
+}
+
+/* Gaya untuk layar dengan lebar lebih besar dari 600px */
+@media only screen and (min-width: 600px) {
+    .error {
+        margin-right: 20px;
+    }
+}
+ 
+/* Gaya untuk layar dengan lebar kurang dari atau sama dengan 600px */
+@media only screen and (max-width: 600px) {
+    .error {
+        /* margin-right: 78px; */
+        width: 87vw;
+        /* height: 95vh; */
+    }
+}
+
+/* Sukses */
+
+.registered {
+    list-style-type: none;
+    position: fixed;
+    border-radius: 10px;
+    background-color: rgba(69, 174, 71, 0.789);
+    padding: 9px;
+    width: 19%;
+    margin: auto;
+    top: -33%;
+    right: 5%;
+    color: white;
+    transition: 300ms;
+}
+

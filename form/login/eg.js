@@ -1,0 +1,1 @@
+alert('jangan ngespam bodo')
